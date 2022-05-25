@@ -4,6 +4,7 @@ from sympy import isprime
 
 class Strategy(ABC):
     def init(self) -> None:
+        # Init
         pass
 
     @abstractmethod

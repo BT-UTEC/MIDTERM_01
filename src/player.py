@@ -3,6 +3,7 @@ from strategy import Strategy
 
 class Observer(ABC):
     def __init__(self) -> None:
+        # Init
         pass
 
     @abstractmethod
