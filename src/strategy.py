@@ -1,6 +1,6 @@
+from __future__ import annotations
 from abc import ABC, abstractmethod
 from sympy import isprime
-from __future__ import annotations
 
 class Strategy(ABC):
     def init(self) -> None:

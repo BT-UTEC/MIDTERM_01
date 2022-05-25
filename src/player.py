@@ -15,4 +15,8 @@ class Player():
         super().__init__()
 
     def update(self, data) -> bool:
-        return self.strategy.execute(data)
+        if self.strategy.execute(data):
+            print(f'I win the game.')
+            return True
+        else:
+            return False
